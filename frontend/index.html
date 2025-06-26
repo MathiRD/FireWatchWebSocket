@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FireWatch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🔥 FireWatch</h1>
+  <div class="controls">
+    <button onclick="startSensor()">Iniciar Sensor</button>
+    <button onclick="stopSensor()">Parar Sensor</button>
+  </div>
+  <div class="chart-container">
+    <canvas id="tempChart"></canvas>
+  </div>
+  <div class="chart-container">
+    <canvas id="umiChart"></canvas>
+  </div>
+  <div id="alert-grid"></div>
+  <script src="app.js"></script>
+</body>
+</html>
